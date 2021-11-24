@@ -22,22 +22,22 @@ function Profile() {
                 <Box alignSelf={['left',"center"]} px={["0",'0']} py='16'>
                     <Text ml={["0",'43']}fontWeight={['small','bold']} fontSize={['14px','18px']}>Front End Developer, specialised in web application design and development.</Text>
                     <Flex direction={['column', 'row']} mt={5} w='100%'  ml={10} >
-                        <Flex rounded='xl' direction='column' mt={4} bg='blue.400' mr={5} h='30vh' w='30vh' justify='flex-end'>
+                        <Flex rounded='xl' direction='column'  mt={4} bg='blue.400' ml={['10','10','0','0']} h={['30vh','38vh','30vh','30vh']} w={['30vh','38vh','30vh','30vh']} justify='flex-end'>
                             <Icon color='white' p='4' as={DiCodeBadge} w='24' h='24'/>
                             <Text color='white' p='4' fontSize='xl' fontWeight='semibold'>
                                 Web Apps
                             </Text>
                         </Flex>
-                        <Flex rounded='xl' direction='column' mt={4} bg='blue.400' h='30vh' w='30vh' justify='flex-end' >
+                        <Flex rounded='xl' direction='column'  mt={4} bg='blue.400'h={['30vh','38vh','30vh','30vh']} w={['30vh','38vh','30vh','30vh']} justify='flex-end' ml={10}  >
                             <Icon color='white' p='4' as={DiReact} w='24' h='24'/>
                             <Text color='white' p='4' fontSize='xl' fontWeight='semibold'>
                                 React
                             </Text>
                         </Flex>
-                        <Flex rounded='xl' direction='column' mt={4} mr={5} bg='blue.400' h='30vh' w='30vh' justify='flex-end' >
+                        <Flex rounded='xl' direction='column'  mt={4} mr={5} bg='blue.400' h={['30vh','38vh','30vh','30vh']} w={['30vh','38vh','30vh','30vh']} justify='flex-end' ml={10}  >
                             <Icon color='white' p='4' as={DiGitMerge} w='24' h='24'/>
-                            <Text color='white' p='4' fontSize='xl' fontWeight='semibold'>
-                                Version Control(Git)
+                            <Text color='white' p='4' fontSize={['md','lg','xl','xl']} fontWeight='semibold'>
+                                Git
                             </Text>
                         </Flex>
                     </Flex>
