@@ -27,7 +27,7 @@ function Header() {
                     <Text fontSize={['2xl','5xl']} fontWeight='semibold' ml={[1,0,0,0]} >Hi, I am</Text>
                     <Text mt={4} fontSize={['2xl','7xl']} fontWeight='bold' bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip="text">Oyelusi Oluwafunmibi Adesola</Text>
                     <Text color={isDark ? 'gray.200' : 'gray.500'} fontSize={['small', 'medium', 'medium', 'medium']} >Front End Developer, React.js, JavaScript, Html, Css.</Text>
-                    <Button mt={8}  colorScheme="blue" onClick={() => window.open('https://legendary-haddock-488.notion.site/Hi-I-m-Oluwafunmibi-and-I-m-a-Front-End-developer-16e33ce04bd04b1d97f4ddd92dc92f04')}>Hire Me</Button>
+                    <Button mt={8}  colorScheme="blue" onClick={() => window.open('https://portfolio-blue-pi-62.vercel.app/')}>Hire Me</Button>
                 </Box>
                 {/* <Img alignSelf='center' mt={isNotSmallerScreen ? "0" : '12'}
                     mb={isNotSmallerScreen ? "0" : '12'} borderRadius='full'
